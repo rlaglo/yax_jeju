@@ -1,0 +1,30 @@
+# --- ROS 2 관련 빌드 파일 (절대 올리면 안 됨) ---
+build/
+install/
+log/
+
+# --- Python 관련 캐시 및 환경 ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.expect/
+dist/
+build/
+*.egg-info/
+.vscode/
+# --- VS Code 및 에디터 설정 (대용량 캐시 포함) ---
+.vscode/
+.history/
+*.swp
+*~
+
+# --- 운영체제 관련 파일 ---
+.DS_Store
+Thumbs.db
+
+# --- C++ 관련 (빌드 결과물이나 라이브러리) ---
+*.o
+*.so
+*.a

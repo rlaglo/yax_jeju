@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rtcm_msgs__py",
+		"source" : "/home/jeanho/gps_rtk/src/build/rtcm_msgs/rtcm_msgs__py"
+	}
+}

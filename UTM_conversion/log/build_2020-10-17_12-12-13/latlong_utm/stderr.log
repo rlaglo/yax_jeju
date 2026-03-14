@@ -1,0 +1,5 @@
+  File "/home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm/utm_to_latlong.py", line 50
+    global l
+    ^
+SyntaxError: name 'l' is used prior to global declaration
+

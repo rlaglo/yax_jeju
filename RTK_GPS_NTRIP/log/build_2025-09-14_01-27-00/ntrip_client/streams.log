@@ -1,0 +1,50 @@
+[0.382s] Invoking command in '/home/jeanho/gps_rtk/src/ntrip_client': PYTHONPATH=/home/jeanho/gps_rtk/src/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jeanho/gps_rtk/src/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ntrip_client build --build-base /home/jeanho/gps_rtk/src/build/ntrip_client/build install --record /home/jeanho/gps_rtk/src/build/ntrip_client/install.log --single-version-externally-managed install_data
+[0.533s] running egg_info
+[0.534s] creating ../build/ntrip_client/ntrip_client.egg-info
+[0.534s] writing ../build/ntrip_client/ntrip_client.egg-info/PKG-INFO
+[0.534s] writing dependency_links to ../build/ntrip_client/ntrip_client.egg-info/dependency_links.txt
+[0.534s] writing requirements to ../build/ntrip_client/ntrip_client.egg-info/requires.txt
+[0.534s] writing top-level names to ../build/ntrip_client/ntrip_client.egg-info/top_level.txt
+[0.534s] writing manifest file '../build/ntrip_client/ntrip_client.egg-info/SOURCES.txt'
+[0.534s] reading manifest file '../build/ntrip_client/ntrip_client.egg-info/SOURCES.txt'
+[0.534s] adding license file 'LICENSE'
+[0.534s] writing manifest file '../build/ntrip_client/ntrip_client.egg-info/SOURCES.txt'
+[0.534s] running build
+[0.534s] running build_py
+[0.534s] creating /home/jeanho/gps_rtk/src/build/ntrip_client/build
+[0.534s] creating /home/jeanho/gps_rtk/src/build/ntrip_client/build/lib
+[0.534s] creating /home/jeanho/gps_rtk/src/build/ntrip_client/build/lib/ntrip_client
+[0.534s] copying src/ntrip_client/ntrip_client.py -> /home/jeanho/gps_rtk/src/build/ntrip_client/build/lib/ntrip_client
+[0.534s] copying src/ntrip_client/rtcm_parser.py -> /home/jeanho/gps_rtk/src/build/ntrip_client/build/lib/ntrip_client
+[0.534s] copying src/ntrip_client/__init__.py -> /home/jeanho/gps_rtk/src/build/ntrip_client/build/lib/ntrip_client
+[0.534s] copying src/ntrip_client/nmea_parser.py -> /home/jeanho/gps_rtk/src/build/ntrip_client/build/lib/ntrip_client
+[0.534s] running build_scripts
+[0.534s] creating /home/jeanho/gps_rtk/src/build/ntrip_client/build/scripts-3.10
+[0.534s] copying and adjusting scripts/ntrip_ros.py -> /home/jeanho/gps_rtk/src/build/ntrip_client/build/scripts-3.10
+[0.534s] changing mode of /home/jeanho/gps_rtk/src/build/ntrip_client/build/scripts-3.10/ntrip_ros.py from 664 to 775
+[0.534s] running install
+[0.534s] running install_lib
+[0.534s] creating /home/jeanho/gps_rtk/src/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[0.534s] copying /home/jeanho/gps_rtk/src/build/ntrip_client/build/lib/ntrip_client/ntrip_client.py -> /home/jeanho/gps_rtk/src/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[0.534s] copying /home/jeanho/gps_rtk/src/build/ntrip_client/build/lib/ntrip_client/rtcm_parser.py -> /home/jeanho/gps_rtk/src/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[0.535s] copying /home/jeanho/gps_rtk/src/build/ntrip_client/build/lib/ntrip_client/__init__.py -> /home/jeanho/gps_rtk/src/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[0.535s] copying /home/jeanho/gps_rtk/src/build/ntrip_client/build/lib/ntrip_client/nmea_parser.py -> /home/jeanho/gps_rtk/src/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[0.535s] byte-compiling /home/jeanho/gps_rtk/src/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/ntrip_client.py to ntrip_client.cpython-310.pyc
+[0.535s] byte-compiling /home/jeanho/gps_rtk/src/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/rtcm_parser.py to rtcm_parser.cpython-310.pyc
+[0.535s] byte-compiling /home/jeanho/gps_rtk/src/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/__init__.py to __init__.cpython-310.pyc
+[0.535s] byte-compiling /home/jeanho/gps_rtk/src/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/nmea_parser.py to nmea_parser.cpython-310.pyc
+[0.535s] running install_data
+[0.535s] creating /home/jeanho/gps_rtk/src/install/ntrip_client/share/ament_index
+[0.535s] creating /home/jeanho/gps_rtk/src/install/ntrip_client/share/ament_index/resource_index
+[0.535s] creating /home/jeanho/gps_rtk/src/install/ntrip_client/share/ament_index/resource_index/packages
+[0.535s] copying resource/ntrip_client -> /home/jeanho/gps_rtk/src/install/ntrip_client/share/ament_index/resource_index/packages
+[0.535s] copying package.xml -> /home/jeanho/gps_rtk/src/install/ntrip_client/share/ntrip_client
+[0.535s] copying launch/ntrip_client_launch.py -> /home/jeanho/gps_rtk/src/install/ntrip_client/share/ntrip_client
+[0.535s] running install_egg_info
+[0.535s] Copying ../build/ntrip_client/ntrip_client.egg-info to /home/jeanho/gps_rtk/src/install/ntrip_client/lib/python3.10/site-packages/ntrip_client-1.2.0-py3.10.egg-info
+[0.535s] running install_scripts
+[0.545s] creating /home/jeanho/gps_rtk/src/install/ntrip_client/lib/ntrip_client
+[0.545s] copying /home/jeanho/gps_rtk/src/build/ntrip_client/build/scripts-3.10/ntrip_ros.py -> /home/jeanho/gps_rtk/src/install/ntrip_client/lib/ntrip_client
+[0.545s] changing mode of /home/jeanho/gps_rtk/src/install/ntrip_client/lib/ntrip_client/ntrip_ros.py to 775
+[0.546s] writing list of installed files to '/home/jeanho/gps_rtk/src/build/ntrip_client/install.log'
+[0.566s] Invoked command in '/home/jeanho/gps_rtk/src/ntrip_client' returned '0': PYTHONPATH=/home/jeanho/gps_rtk/src/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jeanho/gps_rtk/src/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ntrip_client build --build-base /home/jeanho/gps_rtk/src/build/ntrip_client/build install --record /home/jeanho/gps_rtk/src/build/ntrip_client/install.log --single-version-externally-managed install_data

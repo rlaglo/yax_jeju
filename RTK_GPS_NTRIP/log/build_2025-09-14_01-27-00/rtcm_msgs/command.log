@@ -1,0 +1,6 @@
+Invoking command in '/home/jeanho/gps_rtk/src/build/rtcm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jeanho/gps_rtk/src/rtcm_msgs -DCMAKE_INSTALL_PREFIX=/home/jeanho/gps_rtk/src/install/rtcm_msgs
+Invoked command in '/home/jeanho/gps_rtk/src/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jeanho/gps_rtk/src/rtcm_msgs -DCMAKE_INSTALL_PREFIX=/home/jeanho/gps_rtk/src/install/rtcm_msgs
+Invoking command in '/home/jeanho/gps_rtk/src/build/rtcm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jeanho/gps_rtk/src/build/rtcm_msgs -- -j24 -l24
+Invoked command in '/home/jeanho/gps_rtk/src/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jeanho/gps_rtk/src/build/rtcm_msgs -- -j24 -l24
+Invoking command in '/home/jeanho/gps_rtk/src/build/rtcm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jeanho/gps_rtk/src/build/rtcm_msgs
+Invoked command in '/home/jeanho/gps_rtk/src/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jeanho/gps_rtk/src/build/rtcm_msgs

@@ -1,0 +1,6 @@
+[console_scripts]
+latlonpub = latlong_utm.latlon:main
+lattoutm = latlong_utm.latlong_to_utm:main
+utmpub = latlong_utm.utmpubfunc:main
+utmtolat = latlong_utm.utm_to_latlong:main
+

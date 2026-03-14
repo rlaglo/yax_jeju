@@ -1,0 +1,138 @@
+[0.011s] Invoking command in '/home/jeanho/gps_rtk/src/build/ublox_gps': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs:/home/jeanho/gps_rtk/src/install/ublox_serialization:/home/jeanho/gps_rtk/src/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs:/home/jeanho/gps_rtk/src/install/ublox_serialization:/home/jeanho/gps_rtk/src/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs/lib:/home/jeanho/gps_rtk/src/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jeanho/gps_rtk/src/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/src/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jeanho/gps_rtk/src/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/jeanho/gps_rtk/src/install/ublox_gps
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.140s] -- Detecting C compiler ABI info - done
+[0.144s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.144s] -- Detecting C compile features
+[0.144s] -- Detecting C compile features - done
+[0.146s] -- Detecting CXX compiler ABI info
+[0.199s] -- Detecting CXX compiler ABI info - done
+[0.204s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.204s] -- Detecting CXX compile features
+[0.205s] -- Detecting CXX compile features - done
+[0.206s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.310s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.361s] -- Found asio: /usr/include  
+[0.363s] -- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.391s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.393s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.398s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.405s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.433s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.454s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.455s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.515s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.533s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.563s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.572s] -- Looking for pthread.h
+[0.622s] -- Looking for pthread.h - found
+[0.622s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.670s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.671s] -- Found Threads: TRUE  
+[0.700s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.707s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.725s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.735s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.737s] -- Found ublox_msgs: 2.3.0 (/home/jeanho/gps_rtk/src/install/ublox_msgs/share/ublox_msgs/cmake)
+[0.746s] -- Found rtcm_msgs: 1.1.6 (/home/jeanho/gps_rtk/src/install/rtcm_msgs/share/rtcm_msgs/cmake)
+[0.803s] -- Configuring done
+[0.832s] -- Generating done
+[0.837s] -- Build files have been written to: /home/jeanho/gps_rtk/src/build/ublox_gps
+[0.847s] Invoked command in '/home/jeanho/gps_rtk/src/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs:/home/jeanho/gps_rtk/src/install/ublox_serialization:/home/jeanho/gps_rtk/src/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs:/home/jeanho/gps_rtk/src/install/ublox_serialization:/home/jeanho/gps_rtk/src/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs/lib:/home/jeanho/gps_rtk/src/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jeanho/gps_rtk/src/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/src/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jeanho/gps_rtk/src/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/jeanho/gps_rtk/src/install/ublox_gps
+[0.847s] Invoking command in '/home/jeanho/gps_rtk/src/build/ublox_gps': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs:/home/jeanho/gps_rtk/src/install/ublox_serialization:/home/jeanho/gps_rtk/src/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs:/home/jeanho/gps_rtk/src/install/ublox_serialization:/home/jeanho/gps_rtk/src/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs/lib:/home/jeanho/gps_rtk/src/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jeanho/gps_rtk/src/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/src/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeanho/gps_rtk/src/build/ublox_gps -- -j24 -l24
+[0.890s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gnss.cpp.o[0m
+[0.890s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_product.cpp.o[0m
+[0.890s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o[0m
+[0.890s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o[0m
+[0.891s] [ 40%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/tim_product.cpp.o[0m
+[0.891s] [ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[0.891s] [ 45%] [32mBuilding C object CMakeFiles/ublox_gps.dir/src/mkgmtime.c.o[0m
+[0.891s] [ 45%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware7.cpp.o[0m
+[0.891s] [ 45%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m
+[0.891s] [ 50%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[0.891s] [ 50%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[0.891s] [ 54%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o[0m
+[0.891s] [ 59%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware9.cpp.o[0m
+[0.891s] [ 63%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware6.cpp.o[0m
+[0.891s] [ 68%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware.cpp.o[0m
+[0.891s] [ 72%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware8.cpp.o[0m
+[16.398s] [ 77%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[18.405s] [ 77%] Built target ublox_gps
+[18.422s] [ 90%] [32mBuilding CXX object CMakeFiles/ublox_gps_node.dir/src/node_main.cpp.o[0m
+[18.422s] [ 90%] [32mBuilding CXX object CMakeFiles/ublox_logger.dir/src/raw_data_pa.cpp.o[0m
+[18.422s] [ 90%] [32mBuilding CXX object CMakeFiles/ublox_logger.dir/src/logger_node_pa.cpp.o[0m
+[21.831s] [ 95%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[22.627s] [ 95%] Built target ublox_gps_node
+[23.551s] [100%] [32m[1mLinking CXX executable ublox_logger[0m
+[23.840s] [100%] Built target ublox_logger
+[23.849s] Invoked command in '/home/jeanho/gps_rtk/src/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs:/home/jeanho/gps_rtk/src/install/ublox_serialization:/home/jeanho/gps_rtk/src/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs:/home/jeanho/gps_rtk/src/install/ublox_serialization:/home/jeanho/gps_rtk/src/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs/lib:/home/jeanho/gps_rtk/src/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jeanho/gps_rtk/src/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/src/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeanho/gps_rtk/src/build/ublox_gps -- -j24 -l24
+[23.850s] Invoking command in '/home/jeanho/gps_rtk/src/build/ublox_gps': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs:/home/jeanho/gps_rtk/src/install/ublox_serialization:/home/jeanho/gps_rtk/src/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs:/home/jeanho/gps_rtk/src/install/ublox_serialization:/home/jeanho/gps_rtk/src/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs/lib:/home/jeanho/gps_rtk/src/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jeanho/gps_rtk/src/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/src/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jeanho/gps_rtk/src/build/ublox_gps
+[23.858s] -- Install configuration: ""
+[23.859s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/lib/libublox_gps.so
+[23.872s] -- Set runtime path of "/home/jeanho/gps_rtk/src/install/ublox_gps/lib/libublox_gps.so" to ""
+[23.872s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+[23.872s] -- Set runtime path of "/home/jeanho/gps_rtk/src/install/ublox_gps/lib/ublox_gps/ublox_gps_node" to ""
+[23.872s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/lib/ublox_gps/ublox_logger
+[23.873s] -- Set runtime path of "/home/jeanho/gps_rtk/src/install/ublox_gps/lib/ublox_gps/ublox_logger" to ""
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware7plus.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_topic_diagnostic.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/async_worker.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/worker.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/hpg_rov_product.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/fix_diagnostic.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/node.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware6.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/callback.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/gps.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/fts_product.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/adr_udr_product.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/component_interface.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/hpg_ref_product.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/raw_data_pa.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/tim_product.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/raw_data_product.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/rtcm.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/gnss.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware7.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/mkgmtime.h
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/utils.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware9.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware8.hpp
+[23.874s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/include/ublox_gps/ublox_gps/hp_pos_rec_product.hpp
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/launch
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-launch.py
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/config
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/config/c94_m8p_base.yaml
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/config/c94_m8t_base.yaml
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/config/nmea.yaml
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/config/neo_m8u_rover.yaml
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/config/c94_m8t_rover.yaml
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/config/c94_m8p_rover.yaml
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/environment/path.sh
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/environment/path.dsv
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/local_setup.bash
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/local_setup.sh
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/local_setup.zsh
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/local_setup.dsv
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/package.dsv
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/cmake/export_ublox_gpsExport.cmake
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/cmake/export_ublox_gpsExport-noconfig.cmake
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/cmake/ament_cmake_export_targets-extras.cmake
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+[23.875s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+[23.876s] -- Installing: /home/jeanho/gps_rtk/src/install/ublox_gps/share/ublox_gps/package.xml
+[23.877s] Invoked command in '/home/jeanho/gps_rtk/src/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs:/home/jeanho/gps_rtk/src/install/ublox_serialization:/home/jeanho/gps_rtk/src/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs:/home/jeanho/gps_rtk/src/install/ublox_serialization:/home/jeanho/gps_rtk/src/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/src/install/ublox_msgs/lib:/home/jeanho/gps_rtk/src/install/rtcm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jeanho/gps_rtk/src/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/src/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jeanho/gps_rtk/src/build/ublox_gps

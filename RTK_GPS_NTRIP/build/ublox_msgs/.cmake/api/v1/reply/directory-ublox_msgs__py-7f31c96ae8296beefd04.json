@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ublox_msgs__py",
+		"source" : "/home/jeanho/gps_rtk/src/build/ublox_msgs/ublox_msgs__py"
+	}
+}

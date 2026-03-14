@@ -1,0 +1,39 @@
+running egg_info
+creating /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info
+writing /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/PKG-INFO
+writing dependency_links to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/dependency_links.txt
+writing entry points to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/entry_points.txt
+writing requirements to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/requires.txt
+writing top-level names to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/top_level.txt
+writing manifest file '/home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/SOURCES.txt'
+reading manifest file '/home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/SOURCES.txt'
+writing manifest file '/home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sanket/data_conv/build/latlong_utm/build
+creating /home/sanket/data_conv/build/latlong_utm/build/lib
+creating /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm
+copying latlong_utm/utm_to_latlong.py -> /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm
+copying latlong_utm/latlong_to_utm.py -> /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm
+copying latlong_utm/__init__.py -> /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm
+running install
+running install_lib
+creating /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm
+copying /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm/utm_to_latlong.py -> /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm
+copying /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm/latlong_to_utm.py -> /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm
+copying /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm/__init__.py -> /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm
+byte-compiling /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm/utm_to_latlong.py to utm_to_latlong.cpython-38.pyc
+byte-compiling /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm/latlong_to_utm.py to latlong_to_utm.cpython-38.pyc
+byte-compiling /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/sanket/data_conv/install/latlong_utm/share/ament_index
+creating /home/sanket/data_conv/install/latlong_utm/share/ament_index/resource_index
+creating /home/sanket/data_conv/install/latlong_utm/share/ament_index/resource_index/packages
+copying resource/latlong_utm -> /home/sanket/data_conv/install/latlong_utm/share/ament_index/resource_index/packages
+copying package.xml -> /home/sanket/data_conv/install/latlong_utm/share/latlong_utm
+running install_egg_info
+Copying /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info to /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/sanket/data_conv/install/latlong_utm/lib/latlong_utm
+Installing talker script to /home/sanket/data_conv/install/latlong_utm/lib/latlong_utm
+writing list of installed files to '/home/sanket/data_conv/build/latlong_utm/install.log'

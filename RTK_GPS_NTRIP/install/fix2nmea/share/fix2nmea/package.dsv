@@ -1,0 +1,8 @@
+source;share/fix2nmea/hook/cmake_prefix_path.ps1
+source;share/fix2nmea/hook/cmake_prefix_path.dsv
+source;share/fix2nmea/hook/cmake_prefix_path.sh
+source;share/fix2nmea/local_setup.bash
+source;share/fix2nmea/local_setup.dsv
+source;share/fix2nmea/local_setup.ps1
+source;share/fix2nmea/local_setup.sh
+source;share/fix2nmea/local_setup.zsh

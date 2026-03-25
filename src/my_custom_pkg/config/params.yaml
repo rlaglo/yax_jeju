@@ -1,0 +1,64 @@
+# ═══════════════════════════════════════════════
+#  my_custom_pkg 파라미터 설정 파일
+# ═══════════════════════════════════════════════
+
+waypoint_follower_node:
+  ros__parameters:
+    waypoint_csv: "/home/jsmoon/Desktop/JSMOON/YAX/project2/hlfma2025/src/decision_making_pkg/config/waypoints_center.csv"
+    arrive_dist_m: 2.5
+    speed_forward: 200.0
+    speed_slow: 120.0
+    slow_dist_m: 5.0
+    max_steering: 7
+    k_p: -0.4
+    k_i: -0.01
+    k_d: -0.12
+    steering_alpha: 0.55
+    stop_wp_indices: "[]"
+    pause_wp_indices: "[]"
+    pause_seconds: 0.0
+    reverse_ranges: ""
+
+lane_detection_node:
+  ros__parameters:
+    sub_path_topic: "path_planning_result"
+    sub_lane_topic: "yolov8_lane_info"
+    car_center_x: 269
+    car_center_y: 440
+    lookahead_distance: 50.0
+    kp: 30.0
+    ki: 0.0
+    kd: 2.0
+    smoothing_factor: 0.15
+    max_steer: 7.0
+    default_speed: 100.0
+    lane_timeout_sec: 1.0
+
+tunnel_nav_node:
+  ros__parameters:
+    sub_lidar_topic: "/scan"
+    tunnel_wall_dist_m: 3.0
+    tunnel_min_points: 5
+    left_angle_min_deg: 60.0
+    left_angle_max_deg: 120.0
+    right_angle_min_deg: -120.0
+    right_angle_max_deg: -60.0
+    k_tunnel: 2.0
+    max_steering: 7.0
+    tunnel_speed: 150.0
+    entry_count_threshold: 5
+    exit_count_threshold: 10
+
+obstacle_detect_node:
+  ros__parameters:
+    sub_lidar_topic: "/scan"
+    front_half_angle_deg: 30.0
+    stop_distance_m: 2.0
+    consec_detect_threshold: 3
+    consec_clear_threshold: 3
+
+mission_controller_node:
+  ros__parameters:
+    pub_topic: "topic_control_signal"
+    max_steering: 7
+    max_abs_pwm: 255

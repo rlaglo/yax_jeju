@@ -1,0 +1,6 @@
+Invoking command in '/home/jeanho/gps_rtk/src/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jeanho/gps_rtk/src/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/jeanho/gps_rtk/src/install/ublox_serialization
+Invoked command in '/home/jeanho/gps_rtk/src/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jeanho/gps_rtk/src/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/jeanho/gps_rtk/src/install/ublox_serialization
+Invoking command in '/home/jeanho/gps_rtk/src/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jeanho/gps_rtk/src/build/ublox_serialization -- -j24 -l24
+Invoked command in '/home/jeanho/gps_rtk/src/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jeanho/gps_rtk/src/build/ublox_serialization -- -j24 -l24
+Invoking command in '/home/jeanho/gps_rtk/src/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jeanho/gps_rtk/src/build/ublox_serialization
+Invoked command in '/home/jeanho/gps_rtk/src/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jeanho/gps_rtk/src/build/ublox_serialization

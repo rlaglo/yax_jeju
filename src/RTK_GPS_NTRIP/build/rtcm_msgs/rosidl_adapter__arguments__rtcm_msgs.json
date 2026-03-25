@@ -1,0 +1,6 @@
+{
+  "package_name": "rtcm_msgs",
+  "non_idl_tuples": [
+    "/home/jeanho/gps_rtk/src/rtcm_msgs:msg/Message.msg"
+  ]
+}

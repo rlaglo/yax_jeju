@@ -1,0 +1,6 @@
+source;share/latlong_utm/hook/pythonpath.ps1
+source;share/latlong_utm/hook/pythonpath.dsv
+source;share/latlong_utm/hook/pythonpath.sh
+source;share/latlong_utm/hook/ament_prefix_path.ps1
+source;share/latlong_utm/hook/ament_prefix_path.dsv
+source;share/latlong_utm/hook/ament_prefix_path.sh

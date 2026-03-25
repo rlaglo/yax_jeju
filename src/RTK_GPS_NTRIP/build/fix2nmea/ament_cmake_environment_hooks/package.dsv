@@ -1,0 +1,4 @@
+source;share/fix2nmea/local_setup.bash
+source;share/fix2nmea/local_setup.dsv
+source;share/fix2nmea/local_setup.sh
+source;share/fix2nmea/local_setup.zsh

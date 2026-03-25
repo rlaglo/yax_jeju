@@ -1,0 +1,28 @@
+[0.291s] Invoking command in '/home/sanket/data_conv/src/latlong_utm': PYTHONPATH=/home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/sanket/data_conv/build/latlong_utm build --build-base /home/sanket/data_conv/build/latlong_utm/build install --prefix /home/sanket/data_conv/install/latlong_utm --record /home/sanket/data_conv/build/latlong_utm/install.log --single-version-externally-managed
+[0.545s] running egg_info
+[0.545s] writing /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/PKG-INFO
+[0.545s] writing dependency_links to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/dependency_links.txt
+[0.546s] writing entry points to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/entry_points.txt
+[0.546s] writing requirements to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/requires.txt
+[0.546s] writing top-level names to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/top_level.txt
+[0.580s] reading manifest file '/home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/SOURCES.txt'
+[0.581s] writing manifest file '/home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/SOURCES.txt'
+[0.581s] running build
+[0.581s] running build_py
+[0.581s] copying latlong_utm/latlong_to_utm.py -> /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm
+[0.581s] running install
+[0.582s] running install_lib
+[0.583s] copying /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm/latlong_to_utm.py -> /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm
+[0.584s] byte-compiling /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm/latlong_to_utm.py to latlong_to_utm.cpython-38.pyc
+[0.586s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (latlong_to_utm.py, line 43)
+[0.586s] running install_data
+[0.587s] running install_egg_info
+[0.589s] removing '/home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm-0.0.0-py3.8.egg-info' (and everything under it)
+[0.589s] Copying /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info to /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm-0.0.0-py3.8.egg-info
+[0.590s] running install_scripts
+[0.611s] Installing latlonpub script to /home/sanket/data_conv/install/latlong_utm/lib/latlong_utm
+[0.612s] Installing lattoutm script to /home/sanket/data_conv/install/latlong_utm/lib/latlong_utm
+[0.613s] Installing utmpub script to /home/sanket/data_conv/install/latlong_utm/lib/latlong_utm
+[0.613s] Installing utmtolat script to /home/sanket/data_conv/install/latlong_utm/lib/latlong_utm
+[0.613s] writing list of installed files to '/home/sanket/data_conv/build/latlong_utm/install.log'
+[0.639s] Invoked command in '/home/sanket/data_conv/src/latlong_utm' returned '0': PYTHONPATH=/home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/sanket/data_conv/build/latlong_utm build --build-base /home/sanket/data_conv/build/latlong_utm/build install --prefix /home/sanket/data_conv/install/latlong_utm --record /home/sanket/data_conv/build/latlong_utm/install.log --single-version-externally-managed

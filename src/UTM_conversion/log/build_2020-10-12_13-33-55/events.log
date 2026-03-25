@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000480] (latlong_utm) JobQueued: {'identifier': 'latlong_utm', 'dependencies': OrderedDict()}
+[0.001334] (latlong_utm) JobStarted: {'identifier': 'latlong_utm'}
+[0.099973] (-) TimerEvent: {}
+[0.200306] (-) TimerEvent: {}
+[0.300644] (-) TimerEvent: {}
+[0.400999] (-) TimerEvent: {}
+[0.501727] (-) TimerEvent: {}
+[0.602445] (-) TimerEvent: {}
+[0.703409] (-) TimerEvent: {}
+[0.804495] (-) TimerEvent: {}
+[0.904781] (-) TimerEvent: {}
+[0.933830] (latlong_utm) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/sanket/data_conv/build/latlong_utm', 'build', '--build-base', '/home/sanket/data_conv/build/latlong_utm/build', 'install', '--prefix', '/home/sanket/data_conv/install/latlong_utm', '--record', '/home/sanket/data_conv/build/latlong_utm/install.log', '--single-version-externally-managed'], 'cwd': '/home/sanket/data_conv/src/latlong_utm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sanket', 'SSH_AGENT_PID': '1493', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'ibus', 'HOME': '/home/sanket', 'OLDPWD': '/home/sanket/data_conv/src/latlong_utm/latlong_utm', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1180', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9006dbf19414c4471f6e09e85f844d46', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'sanket', 'JOURNAL_STREAM': '9:39445', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sanket', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/sanket-Inspiron-5570:@/tmp/.ICE-unix/1590,unix/sanket-Inspiron-5570:/tmp/.ICE-unix/1590', 'INVOCATION_ID': '4f3014e3f8a2477891493b3ad6249541', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9dd7b5bd_66f4_4087_8273_47daf4280351', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sanket/data_conv/build/latlong_utm', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9006dbf19414c4471f6e09e85f844d46', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.004938] (-) TimerEvent: {}
+[1.105279] (-) TimerEvent: {}
+[1.205724] (-) TimerEvent: {}
+[1.415538] (latlong_utm) StdoutLine: {'line': b'running egg_info\n'}
+[1.416023] (-) TimerEvent: {}
+[1.416199] (latlong_utm) StdoutLine: {'line': b'creating /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info\n'}
+[1.416367] (latlong_utm) StdoutLine: {'line': b'writing /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/PKG-INFO\n'}
+[1.416509] (latlong_utm) StdoutLine: {'line': b'writing dependency_links to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/dependency_links.txt\n'}
+[1.416651] (latlong_utm) StdoutLine: {'line': b'writing entry points to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/entry_points.txt\n'}
+[1.416782] (latlong_utm) StdoutLine: {'line': b'writing requirements to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/requires.txt\n'}
+[1.416915] (latlong_utm) StdoutLine: {'line': b'writing top-level names to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/top_level.txt\n'}
+[1.417043] (latlong_utm) StdoutLine: {'line': b"writing manifest file '/home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/SOURCES.txt'\n"}
+[1.447145] (latlong_utm) StdoutLine: {'line': b"reading manifest file '/home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/SOURCES.txt'\n"}
+[1.447889] (latlong_utm) StdoutLine: {'line': b"writing manifest file '/home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/SOURCES.txt'\n"}
+[1.448053] (latlong_utm) StdoutLine: {'line': b'running build\n'}
+[1.448147] (latlong_utm) StdoutLine: {'line': b'running build_py\n'}
+[1.448339] (latlong_utm) StdoutLine: {'line': b'creating /home/sanket/data_conv/build/latlong_utm/build\n'}
+[1.448460] (latlong_utm) StdoutLine: {'line': b'creating /home/sanket/data_conv/build/latlong_utm/build/lib\n'}
+[1.448569] (latlong_utm) StdoutLine: {'line': b'creating /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm\n'}
+[1.448675] (latlong_utm) StdoutLine: {'line': b'copying latlong_utm/utm_to_latlong.py -> /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm\n'}
+[1.448748] (latlong_utm) StdoutLine: {'line': b'copying latlong_utm/latlong_to_utm.py -> /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm\n'}
+[1.448818] (latlong_utm) StdoutLine: {'line': b'copying latlong_utm/__init__.py -> /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm\n'}
+[1.448887] (latlong_utm) StdoutLine: {'line': b'running install\n'}
+[1.449573] (latlong_utm) StdoutLine: {'line': b'running install_lib\n'}
+[1.450536] (latlong_utm) StdoutLine: {'line': b'creating /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm\n'}
+[1.450659] (latlong_utm) StdoutLine: {'line': b'copying /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm/utm_to_latlong.py -> /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm\n'}
+[1.450840] (latlong_utm) StdoutLine: {'line': b'copying /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm/latlong_to_utm.py -> /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm\n'}
+[1.450959] (latlong_utm) StdoutLine: {'line': b'copying /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm/__init__.py -> /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm\n'}
+[1.451283] (latlong_utm) StdoutLine: {'line': b'byte-compiling /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm/utm_to_latlong.py to utm_to_latlong.cpython-38.pyc\n'}
+[1.452726] (latlong_utm) StdoutLine: {'line': b'byte-compiling /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm/latlong_to_utm.py to latlong_to_utm.cpython-38.pyc\n'}
+[1.453192] (latlong_utm) StdoutLine: {'line': b'byte-compiling /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm/__init__.py to __init__.cpython-38.pyc\n'}
+[1.453424] (latlong_utm) StdoutLine: {'line': b'running install_data\n'}
+[1.482814] (latlong_utm) StdoutLine: {'line': b'creating /home/sanket/data_conv/install/latlong_utm/share/ament_index\n'}
+[1.483073] (latlong_utm) StdoutLine: {'line': b'creating /home/sanket/data_conv/install/latlong_utm/share/ament_index/resource_index\n'}
+[1.483263] (latlong_utm) StdoutLine: {'line': b'creating /home/sanket/data_conv/install/latlong_utm/share/ament_index/resource_index/packages\n'}
+[1.483372] (latlong_utm) StdoutLine: {'line': b'copying resource/latlong_utm -> /home/sanket/data_conv/install/latlong_utm/share/ament_index/resource_index/packages\n'}
+[1.483474] (latlong_utm) StdoutLine: {'line': b'copying package.xml -> /home/sanket/data_conv/install/latlong_utm/share/latlong_utm\n'}
+[1.483571] (latlong_utm) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.485139] (latlong_utm) StdoutLine: {'line': b'Copying /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info to /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm-0.0.0-py3.8.egg-info\n'}
+[1.486232] (latlong_utm) StdoutLine: {'line': b'running install_scripts\n'}
+[1.516132] (-) TimerEvent: {}
+[1.616525] (-) TimerEvent: {}
+[1.649799] (latlong_utm) StdoutLine: {'line': b'Installing listener script to /home/sanket/data_conv/install/latlong_utm/lib/latlong_utm\n'}
+[1.716728] (-) TimerEvent: {}
+[1.734422] (latlong_utm) StdoutLine: {'line': b'Installing talker script to /home/sanket/data_conv/install/latlong_utm/lib/latlong_utm\n'}
+[1.735755] (latlong_utm) StdoutLine: {'line': b"writing list of installed files to '/home/sanket/data_conv/build/latlong_utm/install.log'\n"}
+[1.787226] (latlong_utm) CommandEnded: {'returncode': 0}
+[1.816960] (-) TimerEvent: {}
+[1.917433] (-) TimerEvent: {}
+[2.018202] (-) TimerEvent: {}
+[2.119035] (-) TimerEvent: {}
+[2.186944] (latlong_utm) JobEnded: {'identifier': 'latlong_utm', 'rc': 0}
+[2.190096] (-) EventReactorShutdown: {}

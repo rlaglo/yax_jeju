@@ -1,0 +1,41 @@
+[0.935s] Invoking command in '/home/sanket/data_conv/src/latlong_utm': PYTHONPATH=/home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/sanket/data_conv/build/latlong_utm build --build-base /home/sanket/data_conv/build/latlong_utm/build install --prefix /home/sanket/data_conv/install/latlong_utm --record /home/sanket/data_conv/build/latlong_utm/install.log --single-version-externally-managed
+[1.415s] running egg_info
+[1.415s] creating /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info
+[1.415s] writing /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/PKG-INFO
+[1.415s] writing dependency_links to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/dependency_links.txt
+[1.415s] writing entry points to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/entry_points.txt
+[1.416s] writing requirements to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/requires.txt
+[1.416s] writing top-level names to /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/top_level.txt
+[1.416s] writing manifest file '/home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/SOURCES.txt'
+[1.446s] reading manifest file '/home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/SOURCES.txt'
+[1.447s] writing manifest file '/home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info/SOURCES.txt'
+[1.447s] running build
+[1.447s] running build_py
+[1.447s] creating /home/sanket/data_conv/build/latlong_utm/build
+[1.447s] creating /home/sanket/data_conv/build/latlong_utm/build/lib
+[1.447s] creating /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm
+[1.447s] copying latlong_utm/utm_to_latlong.py -> /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm
+[1.447s] copying latlong_utm/latlong_to_utm.py -> /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm
+[1.448s] copying latlong_utm/__init__.py -> /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm
+[1.448s] running install
+[1.448s] running install_lib
+[1.449s] creating /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm
+[1.449s] copying /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm/utm_to_latlong.py -> /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm
+[1.450s] copying /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm/latlong_to_utm.py -> /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm
+[1.450s] copying /home/sanket/data_conv/build/latlong_utm/build/lib/latlong_utm/__init__.py -> /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm
+[1.450s] byte-compiling /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm/utm_to_latlong.py to utm_to_latlong.cpython-38.pyc
+[1.451s] byte-compiling /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm/latlong_to_utm.py to latlong_to_utm.cpython-38.pyc
+[1.452s] byte-compiling /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm/__init__.py to __init__.cpython-38.pyc
+[1.452s] running install_data
+[1.482s] creating /home/sanket/data_conv/install/latlong_utm/share/ament_index
+[1.482s] creating /home/sanket/data_conv/install/latlong_utm/share/ament_index/resource_index
+[1.482s] creating /home/sanket/data_conv/install/latlong_utm/share/ament_index/resource_index/packages
+[1.482s] copying resource/latlong_utm -> /home/sanket/data_conv/install/latlong_utm/share/ament_index/resource_index/packages
+[1.482s] copying package.xml -> /home/sanket/data_conv/install/latlong_utm/share/latlong_utm
+[1.482s] running install_egg_info
+[1.484s] Copying /home/sanket/data_conv/build/latlong_utm/latlong_utm.egg-info to /home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages/latlong_utm-0.0.0-py3.8.egg-info
+[1.485s] running install_scripts
+[1.649s] Installing listener script to /home/sanket/data_conv/install/latlong_utm/lib/latlong_utm
+[1.733s] Installing talker script to /home/sanket/data_conv/install/latlong_utm/lib/latlong_utm
+[1.735s] writing list of installed files to '/home/sanket/data_conv/build/latlong_utm/install.log'
+[1.786s] Invoked command in '/home/sanket/data_conv/src/latlong_utm' returned '0': PYTHONPATH=/home/sanket/data_conv/install/latlong_utm/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/sanket/data_conv/build/latlong_utm build --build-base /home/sanket/data_conv/build/latlong_utm/build install --prefix /home/sanket/data_conv/install/latlong_utm --record /home/sanket/data_conv/build/latlong_utm/install.log --single-version-externally-managed

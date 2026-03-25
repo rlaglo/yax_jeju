@@ -1,0 +1,38 @@
+ublox_gps_node:
+  ros__parameters:
+    debug: 1                      # Set to 0 to reduce log noise once everything is working
+    device: /dev/ttyACM0
+    frame_id: gps
+    uart1:
+      baudrate: 460800
+      # ** CRITICAL **
+      # Configure input and output protocols
+      # in: 7 enables UBX, NMEA, and RTCM input
+      # out: 3 enables UBX and NMEA output
+      in: 7
+      out: 3
+
+    # Set Differential GNSS mode to RTK Fixed (Rover Mode)
+    dgnss_mode: 3
+
+    # Enable all major constellations for better satellite visibility
+    gnss:
+      gps: true
+      glonass: true
+      galileo: true
+      beidou: true
+      qzss: true
+      imes: false
+
+    # Disable survey-in mode, which is for base stations
+    tmode3: 0
+
+    # Keep INF messages on for debugging
+    inf:
+      all: true
+
+    # Publish useful topics for monitoring
+    publish:
+      all: false
+      nav:
+        all: true
